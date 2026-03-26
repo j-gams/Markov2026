@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 
 
 ### p1
-
+### here I am initializing the transistion matrix and computing the 50th power of it
+### the 3rd row will be q50 given that we started at 2
 mat = np.array([[0, 1, 0, 0, 0],
                 [1/3, 0, 2/3, 0, 0],
                 [0, 1/2, 0, 1/2, 0],
